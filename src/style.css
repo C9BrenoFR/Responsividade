@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.barraSuperior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F1859;
+    width: 100%;
+    height: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #491D66;
+    width: 40%;
+    height: 100%;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9368A6;
+    width: 100%;
+    height: 30%;
+}
+
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B27FC8;
+    width: 100%;
+    height: 70%;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .item1{
+        width: 100%;
+        height: 30%;
+    }
+
+    .itens{
+        width: 100%;
+    }
+
+    .item2{
+        height: 30%;
+    }
+
+    .item3{
+        height: 70%;
+    }
+}
